@@ -1,0 +1,130 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./img/pattern-background-desktop.svg);
+    background-size: 100% 50%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #dfe8ff;
+}
+
+a{
+    font-weight: 600;
+    color: hsl(245, 75%, 52%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 500px;
+    gap: 16px;
+}
+
+.containerDua{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 64px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+img{
+    width: 100%;
+}
+
+.container h1{
+    color: hsl(223, 47%, 23%);
+}
+.container p{
+    color: hsl(224, 23%, 55%);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.plan{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 24px 16px;
+    border: 0;
+    border-radius: 16px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.icon img{
+    width: 48px;
+}
+
+.teks{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: start;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0px;
+    width: 100%;
+}
+
+.cta .proses{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 16px;
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow:  0 12px 20px rgba(49, 46, 244, 0.15);
+}
+
+.cta .cancel{
+    background-color:transparent;
+    padding: 16px;
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    font-size: 18px;
+    font-weight: 600;
+}
